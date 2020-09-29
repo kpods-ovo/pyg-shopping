@@ -1,0 +1,248 @@
+.header .secondkill{
+    position: absolute;
+    left: 185px;
+    top: 45px;
+    height: 30px;
+    border-left: 1px solid #b1191a;
+    padding-left: 10px;
+}
+
+.header .secondkill img{
+    margin-top: 3px;
+}
+
+.nav_bar .left_box{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav_bar .left_box ul{
+    float: left;
+}
+
+.nav_bar .left_box ul li{
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav_bar .left_box ul li a{
+    color: #000;
+    margin: 0 29px;
+}
+
+.nav_bar .right_box{
+    line-height: 47px;
+}
+
+.nav_bar .right_box a{
+    font-size: 14px;
+}
+
+.nav_bar .right_box a:last-child{
+    margin-left: -40px;
+}
+
+.banner_pic{
+    position: relative;
+    height: 120px;
+    margin-bottom: 27px;
+}
+
+.banner_pic img{
+    float: left;
+}
+
+.banner_pic .banner_text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.banner_pic .banner_text .top_text{
+    text-align: center;
+    margin-top: 27px;
+}
+
+.banner_pic .banner_text strong{
+    font-size: 24px;
+    font-weight: 600;
+    color: #c81523;
+}
+
+.banner_pic .banner_text i{
+    font-size: 30px;
+    color: #c81523;
+    margin-right: 6px;
+}
+
+.banner_pic .banner_text p{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 21px;
+}
+
+.banner_pic .banner_text .line{
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.banner_pic .banner_text .line div{
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 15px;
+}
+
+.goods_list{
+    width: 289px;
+    height: 459px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e12228;
+}
+
+.goods_list .goods_pic{
+    text-align: center;
+}
+
+.goods_list .goods_dec{
+    font-size: 14px;
+    color: #747474;
+    margin: 0 13px;
+    line-height: 23px;
+}
+
+.goods_list .goods_money{
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+.goods_list .goods_money .money_1,
+.goods_list .goods_money .money_2{
+    display: flex;
+}
+
+.goods_list .goods_money .money_1{
+    color: #e60012;
+    float: left;
+}
+
+.goods_list .goods_money .money_2{
+    transform: translateY(5px) translateX(4px);
+    color: #a4a4a4;
+}
+
+.goods_list .goods_money .money_1 p:first-child{
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.goods_list .goods_money .money_1 p:last-child{
+    font-size: 22px;
+    margin-left: -2px;
+}
+
+.goods_list .goods_money .money_2 p:first-child{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.goods_list .goods_num{
+    float: left;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.goods_list .goods_num p{
+    color: #747474;
+    font-size: 12px;
+}
+
+.goods_list .goods_num p strong{
+    font-size: 14px;
+    color: #ed282e;
+}
+
+.goods_list .goods_num .progress_bar{
+    position: relative;
+    width: 132px;
+    height: 11px;
+    border: 1px solid #ed282e;
+    border-radius: 10px;
+    margin: 0 11px;
+}
+
+.goods_list .goods_num .progress_bar .progress{
+    position: absolute;
+    width: 118px;
+    height: 11px;
+    left: -1px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #ed282e;
+}
+
+.goods_list .bottom_bar{
+    margin-top: 38px;
+    text-align: center;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+}
+
+.goods_list .bottom_bar p{
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.goods{
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slide{
+    position: absolute;
+    width: 68px;
+    height: 137px;
+    right: 78px;
+    bottom: -900px;
+}
+
+.slide .top_text{
+    height: 68px;
+    margin-bottom: 1px;
+    background-color: #b1191a;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slide .top_text i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.slide .top_text p{
+    font-size: 20px;
+}
+
+.slide .mobile{
+    height: 68px;
+    background-color: #b1191a;
+    text-align: center;
+}
+
+.slide .mobile i{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 14px;
+}
+

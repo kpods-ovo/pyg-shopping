@@ -1,0 +1,161 @@
+.header{
+    border-bottom: 2px solid #b1191a;
+}
+
+.register_box{
+    height: 520px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+.register_box .register_bar{
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 10px;
+}
+
+.register_box .register_bar p:first-child{
+    font-size: 18px;
+    color: #333333;
+    float: left;
+    line-height: 40px;
+}
+
+.register_box .register_bar p:last-child{
+    font-size: 14px;
+    color: #333333;
+    float: right;
+    line-height: 40px;
+}
+
+.register_box .register_bar p:last-child a{
+    color: #c81623;
+}
+
+.register_box .message_bar{
+    width: 567px;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.register_box .message_bar i{
+    font-size: 22px;
+    margin-left: 12px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.register_box .message_bar span:last-child{
+    font-size: 12px;
+    margin-left: 39px;
+}
+
+.right_text{
+    color: rgb(0, 182, 9);
+}
+
+.false_text{
+    color: #df3033;
+}
+
+.register_box .message_bar input{
+    width: 238px;
+    height: 34px;
+    outline-style: none;
+    padding: 0 10px;
+}
+
+.register_box .message_bar .phone{
+    margin-left: 29px;
+    position: relative;
+}
+
+.register_box .message_bar .phone,
+.register_box .message_bar .short_message,
+.register_box .message_bar .password_strength{
+    margin-bottom: 20px;
+}
+
+.register_box .message_bar .password_one{
+    margin-bottom: 11px;
+}
+
+.register_box .message_bar .password_one,
+.register_box .message_bar .password_two{
+    margin-left: 14px;
+}
+
+.register_box .message_bar .password_strength{
+    display: flex;
+    margin-left: 165px;
+}
+
+.register_box .message_bar span{
+    font-size: 14px;
+}
+
+.register_box .message_bar .password_strength span{
+    font-size: 12px;
+    color: #b3b3b3;
+    margin-right: 10px;
+}
+
+.register_box .message_bar .password_strength div{
+    width: 34px;
+    height: 13px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin-right: 1px;
+}
+
+.register_box .message_bar .password_strength div:nth-child(2){
+    background-color: #de1111;
+}
+
+.register_box .message_bar .password_strength div:nth-child(3){
+    background-color: #40b83f;
+}
+
+.register_box .message_bar .password_strength div:nth-child(4){
+    background-color: #f79100;
+}
+
+.register_box .agree_bar{
+    width: 236px;
+    height: 28px;
+    margin: 0 auto;
+    margin-left: 392px;
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.register_box .agree_bar a{
+    color: #1ba1e6;
+}
+
+.register_box .finished_btn{
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 423px;
+    margin-top: 42px;
+}
+
+.footer_bar {
+    background-color: white;
+    height: 96px;
+}
+
+.footer_bar .last_bar{
+    margin-top: 24px;
+}

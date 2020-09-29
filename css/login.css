@@ -1,0 +1,158 @@
+.footer_bar{
+    height: 100px;
+    background-color: #fff!important;
+}
+
+.middle{
+    position: relative;
+    width: 100%;
+    height: 486px;
+    background-color: #7e00ff;
+    overflow: hidden;
+    margin-bottom: 21px;
+}
+
+.middle img{
+    position: absolute;
+    margin-left: -208px;
+}
+
+.middle .login_box{
+    position: absolute;
+    width: 379px;
+    height: 362px;
+    top: 62px;
+    right: 225px;
+    background-color: #fff;
+}
+
+.middle .login_box ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 23px;
+    padding: 0 28px;
+}
+
+.middle .login_box ul li:nth-child(2){
+    width: 2px;
+    height: 20px;
+    background-color: #ededed;
+}
+
+.red_color{
+    color: #c81623;
+}
+
+.middle .login_box .tips{
+    width: 301px;
+    height: 24px;
+    background-color: #fffdee;
+    border: 1px solid #f5eecf;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.middle .login_box .bar{
+    width: 301px;
+    height: 34px;
+    border: 1px solid #3aa2e4;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.middle .login_box .bar .icon{
+    width: 37px;
+    height: 36px;
+    background-color: #cfcdcd;
+    float: left;
+    text-align: center;
+}
+
+.middle .login_box .bar .icon i{
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.middle .login_box .bar input{
+    height: 35px;
+    width: 236px;
+    padding: 0 12px;
+    outline-style: none;
+    border: none;
+}
+
+.middle .login_box .bar input::-webkit-input-placeholder{
+    color: #b3b3b3;
+}
+
+.middle .login_box .login_auto{
+    width: 301px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.middle .login_box .login_auto input{
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    margin-right: 2px;
+}
+
+.middle .login_box .login_auto input,
+.middle .login_box .login_auto p{
+    float: left;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.middle .login_box .login_auto h2{
+    float: right;
+    font-size: 12px;
+    color: #333333;
+}
+
+.middle .login_box .login_btn{
+    width: 303px;
+    height: 41px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 41px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.middle .login_box ol{
+    width: 303px;
+    height: 41px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.middle .login_box ol li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.middle .login_box ol p a{
+    float: right;
+    font-size: 14px;
+    color: #1474af;
+    margin-top: 12px;
+}
+
+.middle .login_box ol li i{
+    font-size: 30px;
+}

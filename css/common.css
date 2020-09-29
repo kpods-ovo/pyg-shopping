@@ -1,0 +1,360 @@
+/* 快捷导航模块 start */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #666666;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #c81623;
+}
+
+i{
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+li{
+    list-style: none;
+}
+
+.shortcut{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.shortcut div{
+    height: 31px;
+    line-height: 31px;
+    color: #666666;
+    font-size: 13px;
+}
+
+.left,.left li,.right li{
+    float: left;
+}
+
+.left .current{
+    color: #c81623;
+}
+
+.right{
+    float: right;
+}
+
+.right li:nth-child(even){
+    height: 12px;
+    border-right: 1px solid #666666;
+    margin: 9px 14px 0px;
+}
+/* 快捷导航模块 end */
+
+/* 头部模块 start */
+.header{
+    position: relative;
+    height: 106px;
+}
+
+.logo{
+    position: absolute;
+    height: 61px;
+    width: 171px;
+    top: 27px;
+    background-image: url(../images/logo.png);
+}
+
+.search-bar{
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 534px;
+    height: 32px;
+    border: 2px solid #b1191a;
+}
+
+.search-bar input{
+    float: left;
+    outline: none;
+    border: none;
+    width: 444px;
+    height: 31px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.search-bar button{
+    float: right;
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 31px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 15.5px;
+}
+
+.shop-car{
+    position: absolute;
+    top: 26px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px #dfdfdf solid;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.shop-car a{
+    margin-left: 2px;
+    margin-right: 15px;
+}
+
+.shop-car i:first-child{
+    color: #db5c5c;
+}
+
+.shop-car i:last-child{
+    position: absolute;
+    top: 11px;
+}
+
+.shop-car span{
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    top: -7px;
+    left: 103px;
+    line-height: 14px;
+    color: #fefefe;
+    background-color: #e60012;
+    border-radius: 7px 7px 7px 0px;
+}
+
+.hotwords{
+    display: flex;
+    position: absolute;
+    left: 347px;
+    top: 70px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.hotwords li{
+    margin: 0 12px;
+}
+
+.hotwords li:first-child{
+    color: #c81623;
+}
+
+/* 头部模块 end */
+
+/* nav模块 start */
+.nav_bar{
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav_bar .left_box .all_product{
+    float: left;
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.left_box{
+    position: relative;
+}
+
+.product-list{
+    position: absolute;
+    top: 47px;
+    /* display: none; */
+}
+
+.nav_bar .product-list li{
+    width: 198px;
+    height: 31px;
+    background-color: #c81623;
+    line-height: 31px;
+    padding-left: 11px;
+}
+
+.nav_bar .product-list li:hover{
+    background-color: #fff;
+}
+
+.nav_bar .product-list li:hover a{
+    color: #c81623;
+}
+
+.nav_bar .product-list li i{
+    position: absolute;
+    right: 11px;
+    margin-top: 9px;
+    color: #ffffff;
+}
+
+.nav_bar .product-list li a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.right_box{
+    width: 730px;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.right_box a{
+    color: #333333;
+}
+/* nav模块 end */
+
+/* footer模块 start */
+.footer_bar{
+    height: 416px;
+    background-color: #f5f5f5;
+}
+
+.first_bar{
+    height: 108px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first_bar li{
+    padding-top: 30px;
+}
+
+.first_bar li .icon{
+    width: 49px;
+    height: 49px;
+    float: left;
+}
+
+.first_bar li:nth-child(1) .icon{
+    background: url(../images/品优购精灵图.png) -253px -3px;
+}
+
+.first_bar li:nth-child(2) .icon{
+    background: url(../images/品优购精灵图.png) -255px -54px;
+}
+
+.first_bar li:nth-child(3) .icon{
+    background: url(../images/品优购精灵图.png) -257px -106px;
+}
+
+.first_bar li:nth-child(4) .icon{
+    background: url(../images/品优购精灵图.png) -258px -157px;
+}
+
+.first_bar li:nth-child(5) .icon{
+    background: url(../images/品优购精灵图.png) -257px -209px;
+}
+    
+.first_bar li .footer_text{
+    height: 41px;
+    padding-top: 8px;
+    margin-left: 56px;
+}
+
+.first_bar li .footer_text h5{
+    font-size: 14px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.first_bar li .footer_text p{
+    font-size: 12px;
+}
+
+.footer_bar ul{
+    height: 187px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_bar ul .text_list{
+    padding-top: 21px;
+}
+
+.footer_bar ul .text_list h4{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 550;
+}
+
+.footer_bar ul .text_list li{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.QR_code{
+    width: 95px;
+    height: 95px;
+    background-image: url(../images/二维码.png);
+    overflow: hidden;
+}
+
+.QR_code div{
+    width: 19px;
+    height: 22px;
+    background: url(../images/二维码中心.png);
+    margin-left: 38px;
+    margin-top: 38px;
+}
+
+.footer_bar ul .text_list:last-child{
+    text-align: center;
+}
+
+.footer_bar ul .text_list:last-child h4{
+    line-height: 34px;
+}
+
+.footer_bar ul .text_list:last-child li{
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.footer_bar section{
+    width: 974px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_bar section li a{
+    font-size: 12px;
+    padding: 0 12px;
+    border-right: 1px solid #999999;
+}
+
+.footer_bar section li:last-child a{
+    border-right: 1px solid transparent;
+}
+
+.last_bar div{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+/* footer模块 end */
+
